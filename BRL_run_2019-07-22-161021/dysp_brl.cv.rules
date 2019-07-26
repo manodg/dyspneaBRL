@@ -1,0 +1,1962 @@
+Rules from cross-validation: 
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 1 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=883.0, Posterior Probability=0.9989, P=0.5308, TP=7, FP=0, Pos=267, Neg=25
+
+1. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+2. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+3. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6977, TP=4, FP=0, Pos=267, Neg=25
+
+4. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+5. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+6. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+7. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+8. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+9. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+10. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+11. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+12. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+13. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+14. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+15. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+16. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+17. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+18. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+19. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+20. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+21. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+22. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+23. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+24. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+25. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+26. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+27. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+28. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+30. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+31. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+32. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+33. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+34. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+35. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+36. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+37. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+38. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+39. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+40. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+41. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+42. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+43. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+44. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+45. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+46. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=13.4539, Posterior Probability=0.9308, P=0.1292, TP=175, FP=13, Pos=267, Neg=25
+
+47. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=3.9764, Posterior Probability=0.7991, P=0.94, TP=4, FP=1, Pos=267, Neg=25
+
+48. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9799, TP=2, FP=1, Pos=267, Neg=25
+
+49. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9799, TP=2, FP=1, Pos=267, Neg=25
+
+50. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.498, Posterior Probability=0.5997, P=0.995, TP=3, FP=2, Pos=267, Neg=25
+
+51. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+52. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+53. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+54. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+55. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+56. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+57. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+58. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+59. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.0071, TP=2, FP=0, Pos=25, Neg=267
+
+60. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+61. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 2 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=883.0, Posterior Probability=0.9989, P=0.5308, TP=7, FP=0, Pos=267, Neg=25
+
+1. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+2. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+3. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6977, TP=4, FP=0, Pos=267, Neg=25
+
+4. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+5. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+6. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+7. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+8. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+9. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+10. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+11. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+12. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+13. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+14. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+15. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+16. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+17. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+18. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+19. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+20. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+21. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+22. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+23. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+24. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+25. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+26. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+27. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+28. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+30. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+31. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+32. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+33. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+34. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+35. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+36. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+37. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+38. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+39. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+40. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+41. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+42. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+43. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+44. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+45. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+46. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+47. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+48. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=12.779, Posterior Probability=0.9274, P=0.1846, TP=179, FP=14, Pos=267, Neg=25
+
+49. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=3.9764, Posterior Probability=0.7991, P=0.94, TP=4, FP=1, Pos=267, Neg=25
+
+50. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.962, TP=3, FP=1, Pos=267, Neg=25
+
+51. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9979, TP=2, FP=2, Pos=267, Neg=25
+
+52. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+53. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+54. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+55. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+56. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+57. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+58. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.0071, TP=2, FP=0, Pos=25, Neg=267
+
+59. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+60. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+61. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 3 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=883.0, Posterior Probability=0.9989, P=0.5308, TP=7, FP=0, Pos=267, Neg=25
+
+1. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+2. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+3. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+4. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+5. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+6. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+7. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+8. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+9. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+10. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+11. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+12. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+13. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+14. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+15. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+16. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+17. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+18. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+19. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+20. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+21. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+22. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+23. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+24. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+25. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+26. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+27. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+28. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+30. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+31. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+32. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+33. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+34. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+35. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+36. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+37. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+38. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+39. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+40. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+41. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+42. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+43. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+44. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+45. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+46. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+47. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+48. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+49. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=13.6077, Posterior Probability=0.9315, P=0.1136, TP=177, FP=13, Pos=267, Neg=25
+
+50. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.962, TP=3, FP=1, Pos=267, Neg=25
+
+51. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.962, TP=3, FP=1, Pos=267, Neg=25
+
+52. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.498, Posterior Probability=0.5997, P=0.995, TP=3, FP=2, Pos=267, Neg=25
+
+53. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+54. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+55. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+56. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+57. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+58. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.0071, TP=2, FP=0, Pos=25, Neg=267
+
+59. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+60. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+61. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 4 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=883.0, Posterior Probability=0.9989, P=0.5308, TP=7, FP=0, Pos=267, Neg=25
+
+1. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+2. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+3. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+4. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+5. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+6. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+7. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+8. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+9. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+10. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+11. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+12. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+13. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+14. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+15. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+16. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+17. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+18. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+19. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+20. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+21. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+22. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+23. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+24. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+25. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+26. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+27. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+28. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+30. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+31. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+32. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+33. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+34. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+35. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+36. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+37. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+38. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+39. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+40. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+41. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+42. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+43. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+44. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+45. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+46. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+47. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+48. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+49. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+50. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=13.6077, Posterior Probability=0.9315, P=0.1136, TP=177, FP=13, Pos=267, Neg=25
+
+51. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9799, TP=2, FP=1, Pos=267, Neg=25
+
+52. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9799, TP=2, FP=1, Pos=267, Neg=25
+
+53. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.498, Posterior Probability=0.5997, P=0.995, TP=3, FP=2, Pos=267, Neg=25
+
+54. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+55. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+56. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+57. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+58. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.0071, TP=2, FP=0, Pos=25, Neg=267
+
+59. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+60. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+61. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 5 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=757.0, Posterior Probability=0.9987, P=0.5816, TP=6, FP=0, Pos=267, Neg=25
+
+1. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+2. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6371, TP=5, FP=0, Pos=267, Neg=25
+
+3. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6977, TP=4, FP=0, Pos=267, Neg=25
+
+4. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+5. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+6. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+7. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7638, TP=3, FP=0, Pos=267, Neg=25
+
+8. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+9. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+10. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+11. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+12. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8358, TP=2, FP=0, Pos=267, Neg=25
+
+13. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+14. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+15. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+16. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+17. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+18. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+19. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+20. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+21. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+22. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+23. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+24. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+25. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+26. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+27. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+28. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+30. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+31. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+32. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+33. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+34. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+35. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+36. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+37. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+38. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+39. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+40. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+41. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+42. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+43. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+44. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+45. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9144, TP=1, FP=0, Pos=267, Neg=25
+
+46. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=14.8242, Posterior Probability=0.9368, P=0.0515, TP=178, FP=12, Pos=267, Neg=25
+
+47. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=3.9764, Posterior Probability=0.7991, P=0.94, TP=4, FP=1, Pos=267, Neg=25
+
+48. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.962, TP=3, FP=1, Pos=267, Neg=25
+
+49. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9799, TP=2, FP=1, Pos=267, Neg=25
+
+50. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.498, Posterior Probability=0.5997, P=0.995, TP=3, FP=2, Pos=267, Neg=25
+
+51. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+52. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9929, TP=1, FP=1, Pos=267, Neg=25
+
+53. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+54. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+55. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+56. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+57. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=25
+
+58. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.0071, TP=2, FP=0, Pos=25, Neg=267
+
+59. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+60. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+61. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0856, TP=1, FP=0, Pos=25, Neg=267
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 6 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=883.0, Posterior Probability=0.9989, P=0.5181, TP=7, FP=0, Pos=267, Neg=26
+
+1. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6263, TP=5, FP=0, Pos=267, Neg=26
+
+2. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6263, TP=5, FP=0, Pos=267, Neg=26
+
+3. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6263, TP=5, FP=0, Pos=267, Neg=26
+
+4. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+5. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+6. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+7. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+8. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+9. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+10. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+11. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+12. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+13. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+14. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+15. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+16. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+17. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+18. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+19. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+20. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+21. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+22. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+23. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+24. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+25. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+26. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+27. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+28. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+29. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+30. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+31. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+32. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+33. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+34. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+35. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+36. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+37. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+38. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+39. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+40. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+41. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+42. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+43. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+44. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+45. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+46. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=12.5649, Posterior Probability=0.9263, P=0.1549, TP=176, FP=14, Pos=267, Neg=26
+
+47. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=3.9764, Posterior Probability=0.7991, P=0.9358, TP=4, FP=1, Pos=267, Neg=26
+
+48. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.9593, TP=3, FP=1, Pos=267, Neg=26
+
+49. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9785, TP=2, FP=1, Pos=267, Neg=26
+
+50. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.498, Posterior Probability=0.5997, P=0.9945, TP=3, FP=2, Pos=267, Neg=26
+
+51. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9924, TP=1, FP=1, Pos=267, Neg=26
+
+52. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9924, TP=1, FP=1, Pos=267, Neg=26
+
+53. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=26
+
+54. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=26
+
+55. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=26
+
+56. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=26
+
+57. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=26
+
+58. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=26
+
+59. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.0076, TP=2, FP=0, Pos=26, Neg=267
+
+60. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+61. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 7 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=757.0, Posterior Probability=0.9987, P=0.5697, TP=6, FP=0, Pos=267, Neg=26
+
+1. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6263, TP=5, FP=0, Pos=267, Neg=26
+
+2. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6882, TP=4, FP=0, Pos=267, Neg=26
+
+3. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6882, TP=4, FP=0, Pos=267, Neg=26
+
+4. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+5. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+6. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+7. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.756, TP=3, FP=0, Pos=267, Neg=26
+
+8. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+9. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+10. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+11. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+12. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+13. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+14. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8301, TP=2, FP=0, Pos=267, Neg=26
+
+15. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+16. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+17. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+18. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+19. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+20. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+21. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+22. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+23. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+24. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+25. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+26. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+27. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+28. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+29. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+30. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+31. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+32. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+33. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+34. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+35. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+36. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+37. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+38. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+39. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+40. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+41. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+42. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+43. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+44. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+45. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+46. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+47. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+48. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+49. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9113, TP=1, FP=0, Pos=267, Neg=26
+
+50. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=11.7943, Posterior Probability=0.9218, P=0.2501, TP=177, FP=15, Pos=267, Neg=26
+
+51. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.9593, TP=3, FP=1, Pos=267, Neg=26
+
+52. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.9593, TP=3, FP=1, Pos=267, Neg=26
+
+53. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9785, TP=2, FP=1, Pos=267, Neg=26
+
+54. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9924, TP=1, FP=1, Pos=267, Neg=26
+
+55. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.9924, TP=1, FP=1, Pos=267, Neg=26
+
+56. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=267, Neg=26
+
+57. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+58. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+59. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+60. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+61. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0887, TP=1, FP=0, Pos=26, Neg=267
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 8 ===
+0. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6382, TP=5, FP=0, Pos=268, Neg=25
+
+1. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6382, TP=5, FP=0, Pos=268, Neg=25
+
+2. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6382, TP=5, FP=0, Pos=268, Neg=25
+
+3. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6986, TP=4, FP=0, Pos=268, Neg=25
+
+4. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+5. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+6. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+7. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+8. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+9. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+10. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+11. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+12. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+13. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+14. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+15. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+16. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+17. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+18. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+19. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+20. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+21. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+22. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+23. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+24. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+25. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+26. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+27. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+28. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+30. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+31. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+32. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+33. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+34. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+35. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+36. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+37. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+38. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+39. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+40. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+41. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+42. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+43. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+44. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+45. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+46. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+47. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+48. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=13.6077, Posterior Probability=0.9315, P=0.1185, TP=177, FP=13, Pos=268, Neg=25
+
+49. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=3.9764, Posterior Probability=0.7991, P=0.9403, TP=4, FP=1, Pos=268, Neg=25
+
+50. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9801, TP=2, FP=1, Pos=268, Neg=25
+
+51. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.498, Posterior Probability=0.5997, P=0.9951, TP=3, FP=2, Pos=268, Neg=25
+
+52. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.993, TP=1, FP=1, Pos=268, Neg=25
+
+53. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.993, TP=1, FP=1, Pos=268, Neg=25
+
+54. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+55. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+56. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+57. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+58. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.007, TP=2, FP=0, Pos=25, Neg=268
+
+59. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+60. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+61. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 9 ===
+0. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6382, TP=5, FP=0, Pos=268, Neg=25
+
+1. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6986, TP=4, FP=0, Pos=268, Neg=25
+
+2. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6986, TP=4, FP=0, Pos=268, Neg=25
+
+3. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6986, TP=4, FP=0, Pos=268, Neg=25
+
+4. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+5. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+6. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+7. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+8. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+9. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+10. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+11. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+12. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+13. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+14. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+15. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+16. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+17. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+18. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+19. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+20. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+21. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+22. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+23. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+24. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+25. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+26. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+27. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+28. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+30. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+31. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+32. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+33. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+34. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+35. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+36. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+37. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+38. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+39. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+40. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+41. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+42. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+43. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+44. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+45. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+46. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+47. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+48. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+49. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=12.779, Posterior Probability=0.9274, P=0.1915, TP=179, FP=14, Pos=268, Neg=25
+
+50. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=3.9764, Posterior Probability=0.7991, P=0.9403, TP=4, FP=1, Pos=268, Neg=25
+
+51. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.9622, TP=3, FP=1, Pos=268, Neg=25
+
+52. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9801, TP=2, FP=1, Pos=268, Neg=25
+
+53. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.498, Posterior Probability=0.5997, P=0.9951, TP=3, FP=2, Pos=268, Neg=25
+
+54. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.993, TP=1, FP=1, Pos=268, Neg=25
+
+55. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.993, TP=1, FP=1, Pos=268, Neg=25
+
+56. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+57. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+58. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+59. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+60. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+61. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+62. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+Attributes used (1):
+PRO5
+
+=== Generating bayesian model ===
+(None)->PRO5, (PRO5)->@DIH, 
+
+=== Rules from fold 10 ===
+0. ((PRO5 = Venous cath NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=883.0, Posterior Probability=0.9989, P=0.532, TP=7, FP=0, Pos=268, Neg=25
+
+1. ((PRO5 = Cont inv mec ven <96 hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=631.0, Posterior Probability=0.9984, P=0.6382, TP=5, FP=0, Pos=268, Neg=25
+
+2. ((PRO5 = Coronar arteriogr-2 cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=505.0, Posterior Probability=0.998, P=0.6986, TP=4, FP=0, Pos=268, Neg=25
+
+3. ((PRO5 = Percu endosc gastrostomy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+4. ((PRO5 = Systemic-pulm art shunt)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+5. ((PRO5 = Insert endotracheal tube)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+6. ((PRO5 = Dx ultrasound-heart)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+7. ((PRO5 = Closed bronchial biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+8. ((PRO5 = Extracorporeal circulat)) ==> (@DIH = ALIVE)
+	Posterior Odds=379.0, Posterior Probability=0.9974, P=0.7645, TP=3, FP=0, Pos=268, Neg=25
+
+9. ((PRO5 = Fus/refus 4-8 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+10. ((PRO5 = Incision of lung)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+11. ((PRO5 = Procedure-one vessel)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+12. ((PRO5 = Thoracentesis)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+13. ((PRO5 = Colonoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+14. ((PRO5 = Parent infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.8364, TP=2, FP=0, Pos=268, Neg=25
+
+15. ((PRO5 = Insert spinal canal cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+16. ((PRO5 = Packed cell transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+17. ((PRO5 = Procedure-two vessels)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+18. ((PRO5 = Pulmon art wedge monitor)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+19. ((PRO5 = Closed pancreatic biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+20. ((PRO5 = Rect/perirect dx op NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+21. ((PRO5 = Other heart/pericard ops)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+22. ((PRO5 = Insert 3 vascular stents)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+23. ((PRO5 = Larygnoscopy/tracheoscop)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+24. ((PRO5 = Inser temp pacemaker sys)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+25. ((PRO5 = Egd with closed biopsy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+26. ((PRO5 = Serum transfusion NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+27. ((PRO5 = Remov intralum rect FB)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+28. ((PRO5 = Other bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+29. ((PRO5 = Endosc retro cholangiopa)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+30. ((PRO5 = Fus/refus 2-3 vertebrae)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+31. ((PRO5 = Repl stent in bile duct)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+32. ((PRO5 = Platelet transfusion)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+33. ((PRO5 = Spinal canal explor NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+34. ((PRO5 = IVUS intrathoracic ves)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+35. ((PRO5 = Pacemaker rate check)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+36. ((PRO5 = Resp tract intubat NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+37. ((PRO5 = Inject/infuse NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+38. ((PRO5 = Cath base invasv ep test)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+39. ((PRO5 = Insert gastric tube NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+40. ((PRO5 = Ins nondrug elut cor st)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+41. ((PRO5 = Regional lymph node exc)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+42. ((PRO5 = Insert 1 vascular stent)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+43. ((PRO5 = Rt/left heart card cath)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+44. ((PRO5 = Cystoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+45. ((PRO5 = Fiber-optic bronchoscopy)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+46. ((PRO5 = Ven cath renal dialysis)) ==> (@DIH = ALIVE)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.9147, TP=1, FP=0, Pos=268, Neg=25
+
+47. ((PRO5 = NoPro)) ==> (@DIH = ALIVE)
+	Posterior Odds=12.7076, Posterior Probability=0.927, P=0.2022, TP=178, FP=14, Pos=268, Neg=25
+
+48. ((PRO5 = Arterial catheterization)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.9622, TP=3, FP=1, Pos=268, Neg=25
+
+49. ((PRO5 = Non-invasive mech vent)) ==> (@DIH = ALIVE)
+	Posterior Odds=2.9843, Posterior Probability=0.749, P=0.9622, TP=3, FP=1, Pos=268, Neg=25
+
+50. ((PRO5 = Entral infus nutrit sub)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9801, TP=2, FP=1, Pos=268, Neg=25
+
+51. ((PRO5 = Sm bowel endoscopy NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.9921, Posterior Probability=0.6658, P=0.9801, TP=2, FP=1, Pos=268, Neg=25
+
+52. ((PRO5 = Percu abdominal drainage)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.993, TP=1, FP=1, Pos=268, Neg=25
+
+53. ((PRO5 = Other skin & subq i & d)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=0.993, TP=1, FP=1, Pos=268, Neg=25
+
+54. ((PRO5 = Cardioplegia)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+55. ((PRO5 = Cont inv mec ven 96+ hrs)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+56. ((PRO5 = Lingual thyroid excision)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+57. ((PRO5 = Excise bone for gft NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+58. ((PRO5 = Bronch/lung dx proc NEC)) ==> (@DIH = ALIVE)
+	Posterior Odds=1.0, Posterior Probability=0.5, P=1.0, TP=0, FP=0, Pos=268, Neg=25
+
+59. ((PRO5 = Hemodialysis)) ==> (@DIH = DEAD)
+	Posterior Odds=253.0, Posterior Probability=0.9961, P=0.007, TP=2, FP=0, Pos=25, Neg=268
+
+60. ((PRO5 = Cardiopulm resuscita NOS)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+61. ((PRO5 = Closed bx skin/subq tiss)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+62. ((PRO5 = Pulsation balloon implan)) ==> (@DIH = DEAD)
+	Posterior Odds=127.0, Posterior Probability=0.9922, P=0.0853, TP=1, FP=0, Pos=25, Neg=268
+
+Attributes used (1):
+PRO5
+
+

@@ -1,0 +1,30 @@
+=== Learner parameters ===
+
+Training data: dysp_brl.txt
+Discretization method: EBD using lambda of 0.5 (2009)
+Learning method: Constrained Bayesian Global Network Rule Learner - Greedy search
+CF function: Posterior odds
+Min conjuncts: 1
+Max conjuncts: 8
+Inference type: Weighted voting (0)
+Beam width: 1000
+Validation method: 10-fold cross-validation with seed 1 
+
+=== Stratified cross-validation performance ===
+
+Accuracy ignoring abst.:                91.692 %
+Accuracy including abst.:               91.692 %
+Abstentions:                            0 (0 %)
+Relative classifier information:        3.296 +/- 3.232
+
+Class      Sensitivity(%)           Specificity(%)           Balanced Accuracy(%)     AUROC                   
+---------- ------------------------ ------------------------ ------------------------ ------------------------ 
+ALIVE      99.667 +/- 0.333         8.333 +/- 5.693          54 +/- 2.713             0.602 +/- 0.063         
+DEAD       8.333 +/- 5.693          99.667 +/- 0.333         54 +/- 2.713             0.602 +/- 0.063         
+
+Confusion matrix:
+	 c1	 c2	Abstentions
+	296	  1	  0	| c1  =  ALIVE
+	 26	  2	  0	| c2  =  DEAD
+
+

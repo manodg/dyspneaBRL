@@ -1,0 +1,326 @@
+#SUBJECT_ID	PRO5	@DIH
+422.0	NoPro	ALIVE
+878.0	Venous cath NEC	ALIVE
+969.0	NoPro	ALIVE
+1008.0	NoPro	ALIVE
+1552.0	NoPro	ALIVE
+1616.0	NoPro	ALIVE
+2113.0	NoPro	ALIVE
+2467.0	Coronar arteriogr-2 cath	ALIVE
+2762.0	Pulmon art wedge monitor	ALIVE
+2911.0	NoPro	ALIVE
+2994.0	NoPro	ALIVE
+3306.0	NoPro	ALIVE
+3707.0	Non-invasive mech vent	ALIVE
+4155.0	NoPro	DEAD
+4357.0	NoPro	ALIVE
+4399.0	NoPro	DEAD
+4535.0	Coronar arteriogr-2 cath	ALIVE
+4730.0	Non-invasive mech vent	ALIVE
+5006.0	Thoracentesis	ALIVE
+5060.0	NoPro	ALIVE
+5841.0	Arterial catheterization	ALIVE
+6206.0	Other bronchoscopy	ALIVE
+6262.0	Procedure-one vessel	ALIVE
+6283.0	NoPro	ALIVE
+7131.0	NoPro	ALIVE
+7376.0	NoPro	ALIVE
+7686.0	NoPro	ALIVE
+7999.0	NoPro	DEAD
+8091.0	Percu abdominal drainage	ALIVE
+8281.0	Rt/left heart card cath	ALIVE
+8394.0	NoPro	ALIVE
+8554.0	NoPro	ALIVE
+8985.0	NoPro	ALIVE
+9186.0	Venous cath NEC	ALIVE
+9789.0	NoPro	DEAD
+10207.0	Entral infus nutrit sub	ALIVE
+10337.0	Other skin & subq i & d	DEAD
+10377.0	NoPro	ALIVE
+11115.0	Cystoscopy NEC	ALIVE
+11162.0	Ins nondrug elut cor st	ALIVE
+11486.0	NoPro	DEAD
+11493.0	NoPro	ALIVE
+11603.0	Insert spinal canal cath	ALIVE
+11624.0	Cath base invasv ep test	ALIVE
+12019.0	NoPro	ALIVE
+12194.0	NoPro	ALIVE
+13225.0	NoPro	ALIVE
+13593.0	NoPro	ALIVE
+13680.0	NoPro	ALIVE
+14617.0	NoPro	ALIVE
+14862.0	NoPro	ALIVE
+15298.0	Closed bronchial biopsy	ALIVE
+15311.0	NoPro	ALIVE
+15353.0	NoPro	DEAD
+15401.0	NoPro	ALIVE
+15566.0	NoPro	ALIVE
+15591.0	NoPro	ALIVE
+15627.0	NoPro	ALIVE
+15793.0	Non-invasive mech vent	DEAD
+15904.0	NoPro	ALIVE
+15996.0	Non-invasive mech vent	ALIVE
+16024.0	Procedure-two vessels	ALIVE
+16085.0	Closed bronchial biopsy	ALIVE
+16298.0	Pacemaker rate check	ALIVE
+16560.0	NoPro	ALIVE
+16687.0	Platelet transfusion	ALIVE
+16840.0	Entral infus nutrit sub	DEAD
+17272.0	NoPro	ALIVE
+17580.0	NoPro	ALIVE
+17779.0	Other heart/pericard ops	ALIVE
+18342.0	Coronar arteriogr-2 cath	ALIVE
+18721.0	NoPro	ALIVE
+18748.0	Sm bowel endoscopy NEC	DEAD
+19059.0	NoPro	ALIVE
+19356.0	NoPro	ALIVE
+19851.0	Dx ultrasound-heart	ALIVE
+19860.0	NoPro	DEAD
+20040.0	NoPro	ALIVE
+20181.0	NoPro	ALIVE
+20643.0	NoPro	ALIVE
+20988.0	NoPro	ALIVE
+21354.0	NoPro	ALIVE
+21747.0	NoPro	ALIVE
+21907.0	NoPro	ALIVE
+22304.0	Coronar arteriogr-2 cath	ALIVE
+22425.0	Non-invasive mech vent	ALIVE
+22754.0	NoPro	ALIVE
+23707.0	Egd with closed biopsy	ALIVE
+24466.0	NoPro	ALIVE
+24631.0	NoPro	ALIVE
+24776.0	Arterial catheterization	DEAD
+24847.0	NoPro	ALIVE
+24914.0	NoPro	ALIVE
+25189.0	NoPro	ALIVE
+25678.0	NoPro	ALIVE
+25836.0	NoPro	ALIVE
+26749.0	NoPro	DEAD
+27080.0	Entral infus nutrit sub	DEAD
+27112.0	Insert endotracheal tube	ALIVE
+27251.0	NoPro	ALIVE
+27472.0	Arterial catheterization	ALIVE
+27643.0	NoPro	ALIVE
+27946.0	NoPro	ALIVE
+27964.0	Cardiopulm resuscita NOS	DEAD
+28093.0	NoPro	ALIVE
+28200.0	NoPro	ALIVE
+28206.0	NoPro	DEAD
+28253.0	Cardioplegia	ALIVE
+28296.0	NoPro	ALIVE
+28298.0	NoPro	ALIVE
+28357.0	Cont inv mec ven <96 hrs	ALIVE
+28556.0	NoPro	DEAD
+28759.0	NoPro	ALIVE
+28935.0	NoPro	ALIVE
+28941.0	Rect/perirect dx op NEC	ALIVE
+29144.0	NoPro	ALIVE
+29233.0	Endosc retro cholangiopa	ALIVE
+29316.0	NoPro	ALIVE
+29377.0	NoPro	ALIVE
+29455.0	Fus/refus 2-3 vertebrae	ALIVE
+29631.0	Extracorporeal circulat	ALIVE
+29680.0	NoPro	ALIVE
+29967.0	NoPro	ALIVE
+30225.0	NoPro	ALIVE
+30253.0	Colonoscopy	ALIVE
+30392.0	NoPro	ALIVE
+30575.0	NoPro	ALIVE
+30707.0	Incision of lung	ALIVE
+30732.0	Parent infus nutrit sub	ALIVE
+31078.0	Dx ultrasound-heart	ALIVE
+31197.0	Venous cath NEC	ALIVE
+31206.0	Incision of lung	ALIVE
+31262.0	NoPro	ALIVE
+31293.0	NoPro	ALIVE
+31473.0	Insert 1 vascular stent	ALIVE
+31504.0	NoPro	ALIVE
+31537.0	NoPro	ALIVE
+31716.0	Regional lymph node exc	ALIVE
+32025.0	NoPro	ALIVE
+32247.0	Cont inv mec ven <96 hrs	ALIVE
+40004.0	NoPro	ALIVE
+40009.0	Systemic-pulm art shunt	ALIVE
+40286.0	NoPro	ALIVE
+40351.0	Percu abdominal drainage	DEAD
+40370.0	NoPro	ALIVE
+40600.0	NoPro	ALIVE
+40827.0	Extracorporeal circulat	ALIVE
+40881.0	Extracorporeal circulat	ALIVE
+41246.0	NoPro	ALIVE
+41288.0	Insert gastric tube NEC	ALIVE
+41469.0	Excise bone for gft NEC	ALIVE
+41562.0	NoPro	ALIVE
+41724.0	NoPro	ALIVE
+42360.0	NoPro	ALIVE
+42604.0	NoPro	DEAD
+42711.0	NoPro	ALIVE
+42892.0	NoPro	ALIVE
+43080.0	NoPro	ALIVE
+43151.0	Closed bx skin/subq tiss	DEAD
+43206.0	NoPro	ALIVE
+43243.0	Resp tract intubat NEC	ALIVE
+44065.0	Entral infus nutrit sub	ALIVE
+44156.0	NoPro	ALIVE
+44523.0	NoPro	ALIVE
+45076.0	NoPro	ALIVE
+45132.0	Arterial catheterization	ALIVE
+45598.0	NoPro	ALIVE
+45803.0	NoPro	ALIVE
+47058.0	NoPro	ALIVE
+47224.0	NoPro	DEAD
+47513.0	NoPro	ALIVE
+47556.0	NoPro	ALIVE
+47578.0	Venous cath NEC	ALIVE
+47591.0	Percu endosc gastrostomy	ALIVE
+47862.0	NoPro	ALIVE
+48087.0	NoPro	ALIVE
+48637.0	NoPro	ALIVE
+49102.0	Sm bowel endoscopy NEC	ALIVE
+49133.0	NoPro	ALIVE
+49482.0	NoPro	ALIVE
+49828.0	NoPro	ALIVE
+50067.0	Serum transfusion NEC	ALIVE
+50424.0	NoPro	ALIVE
+51275.0	NoPro	ALIVE
+52057.0	Parent infus nutrit sub	ALIVE
+52207.0	Larygnoscopy/tracheoscop	ALIVE
+52593.0	NoPro	ALIVE
+52875.0	NoPro	ALIVE
+53556.0	Closed pancreatic biopsy	ALIVE
+54592.0	NoPro	ALIVE
+54613.0	NoPro	ALIVE
+54961.0	Cont inv mec ven <96 hrs	ALIVE
+55049.0	NoPro	ALIVE
+55400.0	NoPro	DEAD
+55559.0	NoPro	ALIVE
+55624.0	Hemodialysis	DEAD
+55751.0	Cont inv mec ven <96 hrs	ALIVE
+56468.0	Dx ultrasound-heart	ALIVE
+56502.0	NoPro	ALIVE
+56922.0	Insert endotracheal tube	ALIVE
+57139.0	Ven cath renal dialysis	ALIVE
+57277.0	NoPro	ALIVE
+58433.0	NoPro	ALIVE
+59036.0	NoPro	ALIVE
+59057.0	NoPro	ALIVE
+59505.0	NoPro	ALIVE
+59841.0	Coronar arteriogr-2 cath	ALIVE
+59845.0	Fiber-optic bronchoscopy	ALIVE
+59976.0	NoPro	ALIVE
+60720.0	NoPro	ALIVE
+60929.0	NoPro	ALIVE
+61180.0	NoPro	ALIVE
+61943.0	Venous cath NEC	ALIVE
+62389.0	NoPro	ALIVE
+62650.0	Fus/refus 4-8 vertebrae	ALIVE
+62930.0	NoPro	ALIVE
+64160.0	Lingual thyroid excision	ALIVE
+64461.0	NoPro	ALIVE
+65013.0	NoPro	ALIVE
+65267.0	NoPro	ALIVE
+65614.0	NoPro	ALIVE
+65659.0	Thoracentesis	ALIVE
+65737.0	NoPro	ALIVE
+65900.0	NoPro	ALIVE
+66221.0	Pulsation balloon implan	DEAD
+66288.0	Percu endosc gastrostomy	ALIVE
+66473.0	NoPro	ALIVE
+66530.0	NoPro	ALIVE
+66804.0	NoPro	ALIVE
+67101.0	Systemic-pulm art shunt	ALIVE
+67199.0	NoPro	ALIVE
+68089.0	NoPro	ALIVE
+68477.0	NoPro	ALIVE
+68564.0	Bronch/lung dx proc NEC	ALIVE
+69000.0	Cont inv mec ven 96+ hrs	DEAD
+69556.0	NoPro	ALIVE
+69616.0	NoPro	ALIVE
+70188.0	NoPro	ALIVE
+70222.0	NoPro	ALIVE
+70330.0	Percu endosc gastrostomy	ALIVE
+70795.0	NoPro	ALIVE
+70907.0	NoPro	ALIVE
+71883.0	NoPro	ALIVE
+72045.0	NoPro	ALIVE
+72163.0	NoPro	ALIVE
+72714.0	NoPro	ALIVE
+72851.0	Other skin & subq i & d	ALIVE
+73713.0	NoPro	ALIVE
+74065.0	NoPro	ALIVE
+74081.0	NoPro	ALIVE
+74144.0	NoPro	ALIVE
+74894.0	Cont inv mec ven <96 hrs	ALIVE
+74935.0	NoPro	ALIVE
+75040.0	Colonoscopy	ALIVE
+75688.0	NoPro	ALIVE
+75775.0	NoPro	ALIVE
+75983.0	NoPro	ALIVE
+76667.0	Closed bronchial biopsy	ALIVE
+77259.0	NoPro	ALIVE
+77279.0	NoPro	ALIVE
+77675.0	NoPro	ALIVE
+78318.0	NoPro	ALIVE
+78651.0	Venous cath NEC	ALIVE
+78707.0	NoPro	ALIVE
+78739.0	Systemic-pulm art shunt	ALIVE
+79576.0	Entral infus nutrit sub	ALIVE
+79851.0	NoPro	ALIVE
+80350.0	NoPro	DEAD
+80603.0	NoPro	ALIVE
+80789.0	NoPro	ALIVE
+81597.0	NoPro	ALIVE
+81715.0	NoPro	ALIVE
+82810.0	Remov intralum rect FB	ALIVE
+82970.0	NoPro	ALIVE
+83252.0	NoPro	ALIVE
+84116.0	Extracorporeal circulat	ALIVE
+84120.0	Procedure-one vessel	ALIVE
+84187.0	Inser temp pacemaker sys	ALIVE
+84232.0	NoPro	ALIVE
+84319.0	NoPro	ALIVE
+84399.0	NoPro	ALIVE
+85559.0	NoPro	ALIVE
+86270.0	NoPro	ALIVE
+86295.0	NoPro	DEAD
+86392.0	NoPro	ALIVE
+86683.0	NoPro	ALIVE
+86824.0	NoPro	ALIVE
+87053.0	Hemodialysis	DEAD
+87276.0	NoPro	ALIVE
+87817.0	NoPro	ALIVE
+87869.0	Sm bowel endoscopy NEC	ALIVE
+87965.0	Fus/refus 4-8 vertebrae	ALIVE
+88678.0	Extracorporeal circulat	ALIVE
+89068.0	NoPro	ALIVE
+90152.0	NoPro	ALIVE
+90446.0	NoPro	ALIVE
+91616.0	Repl stent in bile duct	ALIVE
+91758.0	Spinal canal explor NEC	ALIVE
+91824.0	NoPro	ALIVE
+92452.0	Insert endotracheal tube	ALIVE
+92652.0	NoPro	ALIVE
+92974.0	Larygnoscopy/tracheoscop	ALIVE
+93505.0	NoPro	ALIVE
+93631.0	NoPro	ALIVE
+93671.0	NoPro	ALIVE
+93672.0	NoPro	ALIVE
+94029.0	NoPro	ALIVE
+94079.0	NoPro	ALIVE
+94147.0	NoPro	ALIVE
+94538.0	NoPro	ALIVE
+94592.0	Inject/infuse NEC	ALIVE
+94677.0	NoPro	ALIVE
+94824.0	NoPro	ALIVE
+95638.0	NoPro	ALIVE
+95895.0	NoPro	ALIVE
+96260.0	NoPro	ALIVE
+96463.0	NoPro	ALIVE
+96848.0	Insert 3 vascular stents	ALIVE
+96864.0	Packed cell transfusion	ALIVE
+97031.0	NoPro	ALIVE
+97158.0	IVUS intrathoracic ves	ALIVE
+97441.0	NoPro	ALIVE
+98162.0	Venous cath NEC	ALIVE
+98389.0	NoPro	ALIVE
+98448.0	NoPro	ALIVE
